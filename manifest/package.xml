@@ -1,36 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>productList</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>productListPage</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Webster</members>
+        <members>webster Aura</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>webster_Aura</members>
+        <members>Webster</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>webster_Aura1</members>
+        <members>Webster1</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>Webster1</members>
+        <members>webster_Aura1</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <members>SNA_UDGbO_sf_default_cdn_Webster1</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>CommunitiesLanding</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Retrieve_Product_Info</members>
+        <members>create_lead_record</members>
+        <members>Get_Contact_Information_by_Email</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>LeadConversionHandler</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+		<members>Get_Contact_Information_by_Email</members>
+		<members>LeadConversionHandler</members>
+		<members>Retrieve_Product_Info</members>
+		<members>create_lead_record2</members>
+		<name>GenAiFunction</name>
+	</types>
+	<types>
+		<members>Agentforce_Service_Agent</members>
+		<name>GenAiPlanner</name>
+	</types>
+	<types>
+		<members>Experience_Management</members>
+		<name>GenAiPlugin</name>
+	</types>
     <version>63.0</version>
 </Package>

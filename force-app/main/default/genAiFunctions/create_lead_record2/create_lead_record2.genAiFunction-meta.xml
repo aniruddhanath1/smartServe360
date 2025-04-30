@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>AI Generated flow for I want to invoke this flow in agentforce action to create lead for the new customer. When the email id entered by the user is not available as contact, then this flow will be invoked to create a new lead record</description>
+    <invocationTarget>create_lead_record</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>create lead record</masterLabel>
+    <progressIndicatorMessage>loadin lead creation</progressIndicatorMessage>
+</GenAiFunction>

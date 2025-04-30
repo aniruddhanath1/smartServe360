@@ -1,0 +1,15 @@
+<template>
+    <div class="page-container">
+        <h1 class="page-title">Watch Collection</h1>
+        <div class="product-grid">
+            <template for:each={products} for:item="product">
+                <div key={product.id} class="product-card">
+                    <img src={product.image} alt={product.name} class="product-image" />
+                    <div class="product-name">{product.name}</div>
+                    <div class="product-price">${product.price}</div>
+                    <button class="add-to-cart-button" onclick={handleAddToCart}>Add to Cart</button>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

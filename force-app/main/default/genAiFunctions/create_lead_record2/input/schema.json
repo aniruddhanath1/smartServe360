@@ -1,0 +1,28 @@
+{
+  "required" : [ "Email", "LastNameFromUser", "userName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Email" : {
+      "title" : "Email",
+      "description" : "use this value to set the email input field",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "LastNameFromUser" : {
+      "title" : "LastNameFromUser",
+      "description" : "set this as LastName value taken from the user input",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "userName" : {
+      "title" : "userName",
+      "description" : "this is the firstName entered by the user. Consider it as the first name from the user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
