@@ -1,0 +1,14 @@
+{
+  "required" : [ "VarUserEmailInput" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "VarUserEmailInput" : {
+      "title" : "VarUserEmailInput",
+      "description" : "Accept the customer's email address only",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

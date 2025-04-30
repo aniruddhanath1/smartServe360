@@ -1,0 +1,14 @@
+{
+  "required" : [ "leadIds" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "leadIds" : {
+      "title" : "leadIds",
+      "description" : "test",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

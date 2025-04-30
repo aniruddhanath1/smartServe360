@@ -1,0 +1,18 @@
+{
+  "forgotPasswordRouteId" : "b9e4d770-bd98-4274-918f-75be3acc1ab9",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "bffd5990-2290-4342-acbb-9fd4f80366d8",
+  "mainAppPageId" : "fc49f8e9-33ff-4527-98b8-a71637d5ef83",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "ab53c032-9554-4dd1-af9d-10fd8d4796ef",
+  "trustedSitesForScript" : [ {
+    "id" : "5eb73bbf-e117-4689-9170-b529fd6cf4b2",
+    "isActive" : true,
+    "trustedSiteName" : "trustedImage",
+    "trustedSiteUrl" : "https://via.assets.so",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

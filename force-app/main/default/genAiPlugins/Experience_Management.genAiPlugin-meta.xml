@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>This topic will show new products in the system, addresses customer inquiries and issues related to product experiences,reviews, modifying order, and answering queries about product details.</description>
+    <developerName>Experience_Management</developerName>
+    <genAiFunctions>
+        <functionName>LeadConversionHandler</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Get_Contact_Information_by_Email</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Retrieve_Product_Info</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>create_lead_record2</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the customer is not known, you must always ask for their email address to get their Contact record by running the action &apos;Get Contact Information by Email&apos; before running any other actions. If the action does not return any value, then ask the customer for First Name, Last Name, Mobile Number mandatorily before going to next instruction.</description>
+        <developerName>instruction_ifthecusto0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifthecusto0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If and only if the email address is entered, please ask the new customer to provide the following:
+
+First Name.
+Last Name.
+Mobile Number.</description>
+        <developerName>instruction_ifandonlyi1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifandonlyi1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If and only if all the details have been provided as follows:
+
+Email Address.
+First Name.
+Last Name.
+Mobile Number.
+
+Call the action &quot;create lead record&quot; to create the Lead record with the following mapping:
+
+Assign email address to the Email input variable.
+Combine First Name and Last Name to the userName variable.</description>
+        <developerName>instruction_ifandonlyi2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifandonlyi2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a new customer asks for any products or product names, then call the &quot;Get Product details&quot; action. This action will return the products that are available in the Product record. After displaying the products mandatory ask for email address of the user.</description>
+        <developerName>instruction_ifanewcust3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifanewcust3</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Experience Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>The agent&apos;s job is to assist users in navigating and managing orders for different products offered by company. By providing accurate information and resolving issues promptly, the agent ensures a seamless customer service experience.</scope>
+</GenAiPlugin>
